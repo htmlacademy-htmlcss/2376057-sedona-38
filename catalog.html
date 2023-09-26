@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Academy: Седона</title>
+    </head>
+
+    <body>
+
+        <header class="main-header">
+            <nav class="navigation">
+                <a href="index.html" class="logo-link">
+                    <img src="#" alt="Логотип Седона" class="logo">
+                </a>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link">О Седоне</a></li>
+                    <li class="nav-item"><a href="catalog.html" class="nav-link nav-link-current">Гостиницы</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link ">Главная</a></li>
+                </ul>
+                <ul class="nav-list nav-list-user">
+                    <li class="nav-item"><a href="#" class="nav-link">
+                            <span class="visually-hidden">Поиск</span>
+                        </a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">
+                            <span class="visually-hidden">Избранное</span>
+                        </a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">
+                            <span class="visually-hidden">Хочу сюда!</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-inner">
+
+            <h1>Гостиницы Седоны</h1>
+            <ul class="breadcrumbs-list">
+                <li class="breadcrumbs-item"><a href="index.html" class="breadcrumbs-link visually-hidden">Главная</a>
+                </li>
+                <li class="breadcrumbs-item"><a href="catalog.html" class="breadcrumbs-link"><span>Гостиницы</span></a>
+                </li>
+            </ul>
+
+            <h2 class="visually-hidden">Фильтр</h2>
+            <form action="https://echo.htmlacademy.ru/">
+
+                <fieldset class="infrastructure">
+                    <legend class="filter-title">
+                        Инфраструктура:
+                    </legend>
+                    <ul class="filter-list">
+
+                        <li class="filter-item">
+                            <legend class="filter-name">
+                            <input type="checkbox" name="pool" class="filter-input" checked>
+                            Бассейн
+                            </legend>
+                        </li>
+                        <li class="filter-item">
+                            <legend class="filter-name">
+                                <input type="checkbox" name="parking" class="filter-input" checked>
+                                Парковка
+                                </legend>
+                        </li>
+                        <li class="filter-item">
+                            <legend class="filter-name">
+                            <input type="checkbox" name="Wi-Fi" class="filter-input">
+                            Wi-Fi
+                            </legend>
+                        </li>
+                    </ul>
+
+                </fieldset>
+
+                <fieldset class="Housing">
+                    <legend class="filter-title">
+                        Тип Жилья:
+                    </legend>
+                    <ul class="filter-list">
+
+                        <li class="filter-item">
+                            <legend class="filter-name">
+                            <input type="radio" name="Hotel" class="filter-input" checked>
+                            Гостиница
+                            </legend>
+                        </li>
+                        <li class="filter-item">
+                            <legend class="filter-name">
+                                <input type="radio" name="Motel" class="filter-input" c>
+                                Мотель
+                                </legend>
+                        </li>
+                        <li class="filter-item">
+                            <legend class="filter-name">
+                            <input type="radio" name="Apartments" class="filter-input">
+                            Апартаменты
+                            </legend>
+                        </li>
+                    </ul>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend class="catalog-filter-title">Стоимость, ₽: </legend>
+                      <p>
+                        <legend class="control">От
+                          <input class="control-input" type="text" name="from" placeholder="0" ></legend>
+                      <legend class="control">До
+                          <input class="control-input" type="text" name="to" placeholder="9000"></legend>
+                      </p>
+                    </legend>
+                  </fieldset>
+                      <button type="submit" class="control-button button" href="#">Применить</button>
+                      <button type="submit" class="control-button button" href="#">Сбросить</button>
+                    </form>
+
+            </form>
+
+
+        </main>
+
+
+
+
+    </body>
+
+</html>
