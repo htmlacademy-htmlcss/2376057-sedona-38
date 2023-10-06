@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  background-color: #F2F2F2;;
+
+
+}
+
+/*------------------------ HEADER ---------------------*/
+
+.nav-list .nav-item {
+  font-family: PT Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  list-style-type: none;
+}
+
+.nav-item .visually-hidden {
+  display: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-btn{
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  padding: 8px 34px;
+  background-color: #756157;
+  border-radius: 4px;
+}
+
+/*------------------------ HEADER ---------------------*/
+/*------------------------ HERO -----------------------*/
+
+.hero-title {
+  display: none;
+
+}
+
+.hero{
+  background-image: url(../img/index/hero-bg.jpg);
+  background-color:#15d9fc;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 1200px;
+}
+
+.hero img{
+  margin-top: 51px;
+  margin-bottom: 82px;
+
+}
+
+/*------------------------ HERO -----------------------*/
