@@ -17,12 +17,13 @@
 body {
   margin: 0;
   font-family: "PT Sans", sans-serif;
-  background-color: #F2F2F2;;
+  background-color: #F2F2F2;
+  color: #000000;
 
 
 }
 
-/*------------------------ HEADER ---------------------*/
+/*-------------------------HEADER----------------------*/
 
 .nav-list .nav-item {
   font-family: PT Sans;
@@ -42,7 +43,7 @@ body {
   color: #000000;
 }
 
-.header-btn{
+.header-btn {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
@@ -53,26 +54,171 @@ body {
   border-radius: 4px;
 }
 
-/*------------------------ HEADER ---------------------*/
-/*------------------------ HERO -----------------------*/
+/*-------------------------HEADER----------------------*/
+/*-------------------------HERO------------------------*/
 
 .hero-title {
   display: none;
 
 }
 
-.hero{
+.hero {
   background-image: url(../img/index/hero-bg.jpg);
-  background-color:#15d9fc;
+  background-color: #15d9fc;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 1200px;
 }
 
-.hero img{
+.hero img {
   margin-top: 51px;
   margin-bottom: 82px;
 
 }
 
-/*------------------------ HERO -----------------------*/
+/*-------------------------HERO------------------------*/
+/*----------------------ADVANTAGES---------------------*/
+
+.about-title {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.about-subtitle {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
+
+}
+
+.advatages-list {
+  list-style-type: none;
+
+}
+
+.advantages-title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-subtitle {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333333;
+}
+
+.advatages-list .advantages-title-white {
+  color: #F2F2F2;
+}
+
+.advatages-list .advantages-subtitle-white {
+  color: #F2F2F2;
+}
+
+.blue-bg {
+  background-color: #82B3D3;
+
+}
+
+/*----------------------ADVANTAGES --------------------*/
+/*----------------------FEATURES-----------------------*/
+
+.features-title {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.features-subtitle {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
+}
+
+.features-list {
+  list-style-type: none;
+
+}
+
+.features-list-title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333333;
+}
+
+/*----------------------FEATURES-----------------------*/
+/*-----------------------SEARCH------------------------*/
+
+.search-title {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.search-subtitle {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
+}
+
+.search-link {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+
+  padding: 8px 50px;
+  border-radius: 4px;
+  background-color: #756157;
+
+
+}
+
+/*-----------------------SEARCH------------------------*/
+/*-----------------------MAILING-----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------MAILING-----------------------*/
