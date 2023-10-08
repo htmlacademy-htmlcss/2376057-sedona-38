@@ -54,7 +54,7 @@ body {
   border-radius: 4px;
 }
 
-/*-------------------------HEADER----------------------*/
+/*-------------------------/HEADER---------------------*/
 /*-------------------------HERO------------------------*/
 
 .hero-title {
@@ -66,8 +66,7 @@ body {
   background-image: url(../img/index/hero-bg.jpg);
   background-color: #15d9fc;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 1200px;
+  background-size: 100% auto;
 }
 
 .hero img {
@@ -76,7 +75,7 @@ body {
 
 }
 
-/*-------------------------HERO------------------------*/
+/*-------------------------/HERO-----------------------*/
 /*----------------------ADVANTAGES---------------------*/
 
 .about-title {
@@ -130,7 +129,7 @@ body {
 
 }
 
-/*----------------------ADVANTAGES --------------------*/
+/*----------------------/ADVANTAGES -------------------*/
 /*----------------------FEATURES-----------------------*/
 
 .features-title {
@@ -170,7 +169,7 @@ body {
   color: #333333;
 }
 
-/*----------------------FEATURES-----------------------*/
+/*----------------------/FEATURES----------------------*/
 /*-----------------------SEARCH------------------------*/
 
 .search-title {
@@ -205,13 +204,14 @@ body {
 
 }
 
-/*-----------------------SEARCH------------------------*/
+/*-----------------------/SEARCH-----------------------*/
 /*-----------------------MAILING-----------------------*/
 
 .mailing {
   background-color: aqua;
-  background-image: url(#);
-
+  background-image: url(../img/subscribe.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .mailing-title {
@@ -247,7 +247,7 @@ body {
 }
 
 
-/*-----------------------MAILING-----------------------*/
+/*-----------------------/MAILING----------------------*/
 /*------------------------FOOTER-----------------------*/
 
 .social-list {
@@ -269,4 +269,54 @@ body {
   color: #000000;
 }
 
-/*------------------------FOOTER-----------------------*/
+/*------------------------/FOOTER-----------------------*/
+
+/*------------------------CATALOG-----------------------*/
+/*--------------------------MAIN------------------------*/
+.main-inner {
+  background-image: url(../img/filter.jpg);
+  background-repeat:no-repeat;
+  background-size: 100% auto;
+  background-color:#15d9fc;
+}
+
+.main-title {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 78px;
+  color: #FFFFFF;
+
+}
+
+.main-inner .visually-hidden {
+  display: none;
+}
+
+.breadcrumbs-list {
+  list-style-type: none;
+}
+
+.breadcrumbs-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------/MAIN-----------------------*/
