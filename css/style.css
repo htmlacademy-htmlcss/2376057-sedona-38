@@ -1,0 +1,482 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  background-color: #F2F2F2;
+  color: #000000;
+
+
+}
+
+/*-------------------------HEADER----------------------*/
+
+.nav-list .nav-item {
+  font-family: PT Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  list-style-type: none;
+}
+
+.nav-item .visually-hidden {
+  display: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-btn {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  padding: 8px 34px;
+  background-color: #756157;
+  border-radius: 4px;
+}
+
+/*-------------------------/HEADER---------------------*/
+/*-------------------------HERO------------------------*/
+
+.hero-title {
+  display: none;
+
+}
+
+.hero {
+  background-image: url(../img/index/hero-bg.jpg);
+  background-color: #15d9fc;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.hero img {
+  margin-top: 51px;
+  margin-bottom: 82px;
+
+}
+
+/*-------------------------/HERO-----------------------*/
+/*----------------------ADVANTAGES---------------------*/
+
+.about-title {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.about-subtitle {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
+
+}
+
+.advatages-list {
+  list-style-type: none;
+
+}
+
+.advantages-title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-subtitle {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333333;
+}
+
+.advatages-list .advantages-title-white {
+  color: #F2F2F2;
+}
+
+.advatages-list .advantages-subtitle-white {
+  color: #F2F2F2;
+}
+
+.blue-bg {
+  background-color: #82B3D3;
+
+}
+
+/*----------------------/ADVANTAGES -------------------*/
+/*----------------------FEATURES-----------------------*/
+
+.features-title {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.features-subtitle {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
+}
+
+.features-list {
+  list-style-type: none;
+
+}
+
+.features-list-title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333333;
+}
+
+/*----------------------/FEATURES----------------------*/
+/*-----------------------SEARCH------------------------*/
+
+.search-title {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.search-subtitle {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
+}
+
+.search-link {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+
+  padding: 8px 50px;
+  border-radius: 4px;
+  background-color: #756157;
+
+
+}
+
+/*-----------------------/SEARCH-----------------------*/
+/*-----------------------MAILING-----------------------*/
+
+.mailing {
+  background-color: aqua;
+  background-image: url(../img/subscribe.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.mailing-title {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
+.mailing-subtitle {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.mailing-button {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  padding: 8px 50px;
+  border: none;
+  border-radius: 4px;
+}
+
+
+/*-----------------------/MAILING----------------------*/
+/*------------------------FOOTER-----------------------*/
+
+.social-list {
+  list-style-type: none;
+
+}
+
+.main-footer .visually-hidden {
+  display: none;
+
+}
+
+.number {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+
+  text-decoration: none;
+  color: #000000;
+}
+
+/*------------------------/FOOTER-----------------------*/
+
+/*------------------------CATALOG-----------------------*/
+/*--------------------------MAIN------------------------*/
+.main-inner {
+  background-image: url(../img/filter.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: #15d9fc;
+}
+
+.main-title {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 78px;
+  color: #FFFFFF;
+
+}
+
+.main-inner .visually-hidden {
+  display: none;
+}
+
+.breadcrumbs-list {
+  list-style-type: none;
+}
+
+.breadcrumbs-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.filter-title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.filter-list {
+  list-style-type: none;
+}
+
+.filter-item {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.price-title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.submit-btn {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  background-color: #82B3D3;
+  padding: 8px 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reset-btn {
+  background: none;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+
+/*--------------------------/MAIN-----------------------*/
+/*--------------------------CATALOG---------------------*/
+
+.catalog-title {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.sorting {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.view-list {
+  list-style-type: none;
+
+}
+
+.view-list .visually-hidden {
+  display: none;
+}
+
+.hotel-list {
+  list-style-type: none;
+}
+
+.hotel-link {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+
+  text-decoration: none;
+  color: #000000;
+}
+
+.hotel-type {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotel-price {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotel .more {
+  text-decoration: none;
+  background-color: #756157;
+}
+
+.btn {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  background-color: #82B3D3;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 50px;
+}
+
+.hotel .visually-hidden {
+  display: none;
+}
+
+.raiting {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+/*--------------------------/CATALOG--------------------*/
+/*--------------------------PAGINATION------------------*/
+
+.pagination-list {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+}
+
+.pagination-link {
+  background-color: #82B3D3;
+  padding: 11px 25px;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 4px;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.pagination-link-ten {
+  padding: 11px 18px;
+
+}
+
+.dots {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px
+}
+
+/*-------------------------/PAGINATION------------------*/
