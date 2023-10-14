@@ -20,16 +20,40 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: "PT Sans", sans-serif;
   background-color: #F2F2F2;
   color: #000000;
-
-
+  height: 100%;
 }
 
 /*-------------------------HEADER----------------------*/
+.main-header {
+  width: 1060px;
+  margin: 0 auto;
+
+}
+
+.navigation {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  gap: 32px;
+  justify-content: space-around;
+
+}
+
+.nav-list-user {
+  margin-left: auto;
+
+}
 
 .nav-list .nav-item {
   font-family: PT Sans;
@@ -72,19 +96,24 @@ body {
   background-image: url(../img/index/hero-bg.jpg);
   background-color: #15d9fc;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
+
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .hero img {
-  margin-top: 51px;
-  margin-bottom: 82px;
-  text-align: center;
-
-
+  margin: 51px auto 82px;
 }
 
 /*-------------------------/HERO-----------------------*/
 /*----------------------ADVANTAGES---------------------*/
+
+.advantages {
+  width: 1200px;
+  margin: 0 auto;
+}
 
 .about-title {
   font-size: 30px;
@@ -140,6 +169,11 @@ body {
 /*----------------------/ADVANTAGES -------------------*/
 /*----------------------FEATURES-----------------------*/
 
+.features {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .features-title {
   font-size: 30px;
   font-style: normal;
@@ -159,7 +193,15 @@ body {
 .features-list {
   list-style-type: none;
 
+  display: flex;
 }
+
+.features-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 .features-list-title {
   font-size: 24px;
@@ -180,12 +222,21 @@ body {
 /*----------------------/FEATURES----------------------*/
 /*-----------------------SEARCH------------------------*/
 
+.search-section {
+  width: 592px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
 .search-title {
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
+
+  margin: 92px auto 0;
 }
 
 .search-subtitle {
@@ -194,6 +245,8 @@ body {
   font-weight: 400;
   line-height: 26px;
   color: #333333;
+
+  margin: 20px auto 0;
 }
 
 .search-link {
@@ -209,7 +262,7 @@ body {
   border-radius: 4px;
   background-color: #756157;
 
-
+  margin: 54px auto 96px;
 }
 
 /*-----------------------/SEARCH-----------------------*/
@@ -220,6 +273,11 @@ body {
   background-image: url(../img/subscribe.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
+
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .mailing-title {
@@ -229,6 +287,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin: 96px auto 0;
 
 }
 
@@ -238,6 +297,12 @@ body {
   font-weight: 400;
   line-height: 26px;
   color: #FFFFFF;
+  margin: 20px auto 0;
+}
+
+.mailing-form {
+  margin: 54px auto 104px;
+
 }
 
 .mailing-button {
@@ -252,15 +317,25 @@ body {
   padding: 8px 50px;
   border: none;
   border-radius: 4px;
+
 }
 
 
 /*-----------------------/MAILING----------------------*/
 /*------------------------FOOTER-----------------------*/
 
+.main-footer {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
 .social-list {
   list-style-type: none;
 
+  display: flex;
+  gap: 27px;
 }
 
 .main-footer .visually-hidden {
