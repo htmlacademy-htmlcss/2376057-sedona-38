@@ -15,7 +15,8 @@
 }
 
 *,
-*::before *::after {
+*::before,
+*::after {
   /* */
   box-sizing: border-box;
 }
@@ -32,6 +33,7 @@ body {
   height: 100%;
 }
 
+/*-------------------------INDEX-----------------------*/
 /*-------------------------HEADER----------------------*/
 .main-header {
   width: 1060px;
@@ -41,12 +43,15 @@ body {
 
 .navigation {
   display: flex;
+
 }
 
 .nav-list {
   display: flex;
   gap: 32px;
-  justify-content: space-around;
+  justify-content: flex-start;
+  max-width: 460px;
+  flex-wrap: wrap;
 
 }
 
@@ -134,6 +139,8 @@ body {
 
 .advatages-list {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -192,8 +199,10 @@ body {
 
 .features-list {
   list-style-type: none;
-
   display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 
 .features-item {
@@ -202,6 +211,7 @@ body {
   align-items: center;
 
   padding: 80px 85px;
+  width: 400px;
 }
 
 .features-item:nth-child(odd) {
@@ -340,7 +350,9 @@ body {
 
 .social-list {
   list-style-type: none;
-
+  margin: 0;
+  margin-top: 58px;
+  padding: 0;
   display: flex;
   gap: 27px;
 }
@@ -350,17 +362,26 @@ body {
 
 }
 
+.tel {
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+
 .number {
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
-
   text-decoration: none;
   color: #000000;
 }
 
-/*------------------------/FOOTER-----------------------*/
+.htmlacademy-link {
+  margin-top: 48px;
 
+}
+
+/*------------------------/FOOTER-----------------------*/
+/*-------------------------/INDEX-----------------------*/
 /*------------------------CATALOG-----------------------*/
 /*--------------------------MAIN------------------------*/
 .main-inner {
@@ -400,6 +421,13 @@ body {
   list-style-type: none;
   display: flex;
   margin-top: 11px;
+  align-items: center;
+  gap: 20px;
+}
+
+.breadcrumbs-svg {
+  display: block;
+
 }
 
 
@@ -619,6 +647,11 @@ body {
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
+}
+
+.pagination-link-current {
+  background-color: #F2F2F2;
+  color: #000000;
 }
 
 .pagination-link-ten {
