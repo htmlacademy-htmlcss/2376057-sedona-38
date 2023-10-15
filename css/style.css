@@ -126,6 +126,10 @@ body {
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
+  text-align: center;
+  max-width: 620px;
+  margin: 0 auto;
+  margin-top: 69px;
 }
 
 .about-subtitle {
@@ -134,6 +138,8 @@ body {
   font-weight: 400;
   line-height: 26px;
   color: #333333;
+  text-align: center;
+  margin-top: 20px;
 
 }
 
@@ -234,6 +240,8 @@ body {
   font-weight: 400;
   line-height: 21px;
   color: #333333;
+
+  text-align: center;
 }
 
 /*----------------------/FEATURES----------------------*/
@@ -254,6 +262,7 @@ body {
   text-transform: uppercase;
 
   margin: 92px auto 0;
+  text-align: center;
 }
 
 .search-subtitle {
@@ -264,6 +273,7 @@ body {
   color: #333333;
 
   margin: 20px auto 0;
+  text-align: center;
 }
 
 .search-link {
@@ -305,6 +315,7 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   margin: 96px auto 0;
+  text-align: center;
 
 }
 
@@ -315,6 +326,7 @@ body {
   line-height: 26px;
   color: #FFFFFF;
   margin: 20px auto 0;
+  text-align: center;
 }
 
 .mailing-form {
