@@ -162,14 +162,17 @@ body {
 
 .ai-2 {
   grid-area: ai-2;
+  width: 400px;
 }
 
 .ai-3 {
   grid-area: ai-3;
+  width: 400px;
 }
 
 .ai-4 {
   grid-area: ai-4;
+  width: 400px;
 }
 
 .ai-5 {
@@ -180,6 +183,7 @@ body {
 
 .advantages-item {
   height: 385px;
+
 }
 
 .advantages-item:first-child {
@@ -204,6 +208,14 @@ body {
 
 .advantages-item:last-child .advantages-subtitle {
   color: #F2F2F2;
+}
+
+.advantages-item:nth-child(even) {
+  background-color: #83B3D31F;
+}
+
+.advantages-item:nth-child(3) {
+  background-color: #83B3D333;
 }
 
 .advantages-grid-container {
@@ -231,7 +243,8 @@ body {
   font-weight: 400;
   line-height: 21px;
   color: #333333;
-
+  max-width: 230px;
+  margin: 0 auto;
   text-align: center;
   margin-top: 60px;
 }
@@ -244,6 +257,8 @@ body {
 .features {
   width: 1200px;
   margin: 0 auto;
+  margin-top: 64px;
+
 }
 
 .features-title {
@@ -252,6 +267,9 @@ body {
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
+  text-align: center;
+  max-width: 505px;
+  margin: 0 auto;
 }
 
 .features-subtitle {
@@ -260,6 +278,7 @@ body {
   font-weight: 400;
   line-height: 26px;
   color: #333333;
+  text-align: center;
 }
 
 .features-list {
@@ -268,6 +287,7 @@ body {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  margin-top: 64px;
 }
 
 .features-item {
@@ -390,8 +410,27 @@ body {
 
 .mailing-form {
   margin: 54px auto 104px;
-
 }
+
+.mailing-label {
+  display: flex;
+}
+
+.mailing-input {
+  border: none;
+  border-radius: 4px 0px 0px 4px;
+  background: var(--basic-light, #F2F2F2);
+  width: 452px;
+  height: 52px;
+  margin: 0;
+  padding: 20px 12px;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px
+}
+
 
 .mailing-button {
   font-size: 20px;
@@ -402,10 +441,12 @@ body {
 
   background-color: #82B3D3;
   color: #FFFFFF;
-  padding: 8px 50px;
+  width: 232px;
+  height: 52px;
   border: none;
-  border-radius: 4px;
-
+  border-radius: 0px 4px 4px 0px;
+  margin: 0;
+  padding: 0;
 }
 
 
