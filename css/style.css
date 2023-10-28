@@ -44,7 +44,7 @@ body {
 .navigation {
   display: flex;
 
-  margin-bottom: -10px;
+  margin-bottom: -12px;
 }
 
 .nav-list {
@@ -70,13 +70,35 @@ body {
   list-style-type: none;
 }
 
+.many-favorite {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 50%;
+  text-align: center;
+  font-family: PT Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10px;
+  background-color: #7DB54F;
+  padding: 5px;
+  color: #FFFFFF;
+}
+
 .nav-item .visually-hidden {
   display: none;
 }
 
 .nav-link {
+  position: relative;
   text-decoration: none;
   color: #000000;
+}
+
+.nav-link-current {
+  border-bottom: 2px solid #756257;
+  padding-bottom: 20px;
 }
 
 .header-btn {
