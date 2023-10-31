@@ -28,7 +28,7 @@ html {
 body {
   margin: 0;
   font-family: "PT Sans", sans-serif;
-  background-color: #FFFFFF;
+  background-color: #E6E6E6;
   color: #000000;
   height: 100%;
 }
@@ -36,8 +36,13 @@ body {
 /*-------------------------INDEX-----------------------*/
 /*-------------------------HEADER----------------------*/
 .main-header {
-  width: 1060px;
+  width: 1200px;
+  background-color: #fff;
   margin: 0 auto;
+}
+
+.header-wrapper {
+  width: 1060px;
 
 }
 
@@ -96,6 +101,11 @@ body {
   color: #000000;
 }
 
+.nav-link:hover {
+  color: #3b3a3a;
+
+}
+
 .nav-link-current {
   border-bottom: 2px solid #756257;
   padding-bottom: 20px;
@@ -110,6 +120,15 @@ body {
   padding: 8px 34px;
   background-color: #756157;
   border-radius: 4px;
+}
+
+.header-btn:hover {
+  background-color: #615048;
+}
+
+.header-btn:active {
+  background-color: #756157;
+  color: #FFFFFF4D;
 }
 
 /*-------------------------/HEADER---------------------*/
@@ -129,11 +148,24 @@ body {
   display: flex;
   width: 1200px;
   margin: 0 auto;
+  position: relative;
 }
 
-.hero img {
+.hero-img {
   margin: 51px auto 82px;
 }
+
+.hero::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 57px;
+  background-repeat: no-repeat;
+  background-image: url(../img/index/hero-decor.svg);
+}
+
 
 /*-------------------------/HERO-----------------------*/
 /*----------------------ADVANTAGES---------------------*/
@@ -141,6 +173,8 @@ body {
 .advantages {
   width: 1200px;
   margin: 0 auto;
+  background-color: #fff;
+  padding-top: 69px;
 }
 
 .about-title {
@@ -152,7 +186,6 @@ body {
   text-align: center;
   max-width: 620px;
   margin: 0 auto;
-  margin-top: 69px;
 }
 
 .about-subtitle {
@@ -163,6 +196,7 @@ body {
   color: #333333;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 90px;
 
 }
 
@@ -249,14 +283,30 @@ body {
 
 
 .advantages-title {
+  position: relative;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 28px;
   text-transform: uppercase;
-
+  width: 175px;
+  margin: 0 auto;
   text-align: center;
   margin-top: 113px;
+}
+
+.advantages-title::after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  top: 85px;
+  left: 56px;
+  background-color: #FFFFFF4D;
+}
+
+.advantages-item-wrapper .advantages-title::after {
+  background-color: #0000004D;
 }
 
 .advantages-subtitle {
@@ -279,7 +329,8 @@ body {
 .features {
   width: 1200px;
   margin: 0 auto;
-  margin-top: 64px;
+  padding-top: 64px;
+  background-color: #fff;
 
 }
 
@@ -349,6 +400,12 @@ body {
 /*-----------------------SEARCH------------------------*/
 
 .search-section {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.search-section-wrapper {
   width: 592px;
   margin: 0 auto;
   display: flex;
@@ -391,6 +448,15 @@ body {
   background-color: #756157;
 
   margin: 54px auto 96px;
+}
+
+.search-link:hover {
+  background-color: #615048;
+}
+
+.search-link:active {
+  background-color: #756157;
+  color: #FFFFFF4D;
 }
 
 /*-----------------------/SEARCH-----------------------*/
@@ -471,11 +537,26 @@ body {
   padding: 0;
 }
 
+.mailing-button:hover {
+  background-color: #68A2CA;
+}
+
+.mailing-button:active {
+  background-color: #82B3D3;
+  color: #FFFFFF4D;
+}
+
 
 /*-----------------------/MAILING----------------------*/
 /*------------------------FOOTER-----------------------*/
 
 .main-footer {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.main-footer-wrapper {
   display: flex;
   width: 1060px;
   margin: 0 auto;
@@ -509,6 +590,14 @@ body {
   color: #000000;
 }
 
+.number:hover {
+  color: #756157;
+}
+
+.number:active {
+  color: #7561574D;
+}
+
 .htmlacademy-link {
   margin-top: 48px;
 
@@ -528,6 +617,7 @@ body {
 
   display: flex;
   flex-direction: column;
+
 }
 
 .main-contain {
@@ -559,9 +649,23 @@ body {
   gap: 20px;
 }
 
+.breadcrumbs-item {
+  position: relative;
+}
+
 .breadcrumbs-svg {
   display: block;
+}
 
+.breadcrumbs-link::before {
+  position: absolute;
+  content: "";
+  top: 5px;
+  right: 14px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/catalog/breadcrumbs-icon.svg);
+  background-repeat: no-repeat;
 }
 
 
@@ -646,14 +750,17 @@ body {
 /*--------------------------CATALOG---------------------*/
 
 .catalog {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
-  width: 1060px;
-  margin: 0 auto;
-
 }
 
 .catalog-contain {
+  width: 1060px;
+  margin: 0 auto;
+
   display: flex;
   justify-content: space-between;
 
@@ -699,8 +806,9 @@ body {
 .hotel-list {
   list-style-type: none;
   margin: 0;
+  margin-left: 70px;
   padding: 0;
-
+  width: 1060px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 20px;
@@ -837,16 +945,26 @@ body {
 /*--------------------------PAGINATION------------------*/
 
 .pagination {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+
+.pagination-wrapper {
   width: 1060px;
   margin: 0 auto;
+
 }
 
 .pagination-list {
-  margin-top: 80px;
-  margin-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 60px;
   list-style-type: none;
   display: flex;
   gap: 8px;
+  margin: 0;
+
 }
 
 .pagination-link {
