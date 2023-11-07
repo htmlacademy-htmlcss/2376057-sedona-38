@@ -28,13 +28,13 @@ html {
 body {
   margin: 0;
   font-family: "PT Sans", sans-serif;
-  background-color: #E6E6E6;
+  background-color: #F2F2F2;
   color: #000000;
   min-height: 100%;
 
   display: flex;
   flex-direction: column;
-
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .main-container {
@@ -59,12 +59,12 @@ body {
   background-color: #fff;
   margin: 0 auto;
   height: 64px;
+
 }
 
 .header-wrapper {
   width: 1060px;
   margin: 0 auto;
-
 }
 
 .navigation {
@@ -82,13 +82,13 @@ body {
   justify-content: flex-start;
   max-width: 460px;
   flex-wrap: wrap;
-
-
+  margin: 0;
+  padding: 0;
+  margin-left: 44px;
 }
 
 .nav-list-user {
   margin-left: auto;
-
 }
 
 .nav-list .nav-item {
@@ -98,6 +98,8 @@ body {
   font-weight: 700;
   line-height: 24px;
   list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .many-favorite {
@@ -133,9 +135,14 @@ body {
   color: #7561574D;
 }
 
-.nav-link-current {
-  border-bottom: 2px solid #756257;
-  padding-bottom: 20px;
+.nav-link-current::before {
+  z-index: 2;
+  position: absolute;
+  bottom: -21px;
+  width: 68px;
+  height: 2px;
+  content: "";
+  background: #756257;
 }
 
 .header-btn {
@@ -1344,6 +1351,7 @@ body {
   height: 100%;
   background: rgba(242, 242, 242, 0.80);
   z-index: 2;
+  display: none;
 }
 
 .modal {
@@ -1352,6 +1360,7 @@ body {
   padding: 64px 70px;
   width: 717px;
   position: relative;
+
 }
 
 .modal-close {
