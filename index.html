@@ -22,7 +22,7 @@
           </ul>
           <ul class="nav-list nav-list-user">
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#" class="nav-link nav-link-search">
                 <span class="visually-hidden search">Поиск
                 </span>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,7 +34,7 @@
             </li>
             <li class="nav-item">
               <div>
-                <a href="#" class="nav-link">
+                <a href="#" class="nav-link nav-link-favorite">
                   <span class="visually-hidden favorite">Избранное</span>
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -117,20 +117,20 @@
           <li class="features-item">
             <img src="img/index/icon-house.svg" alt="иконка жилья" class="features-icon" width="75" height="72">
             <h3 class="features-list-title">Жильё</h3>
-            <p class="features-text">Рекомендуем пожить в настоящем мотеле,
+            <p class="features-text">Рекомендуем пожить <br> в настоящем мотеле, <br>
               всё как в кино!</p>
           </li>
           <li class="features-item">
             <img src="img/index/icon-burger.svg" alt="иконка еды" class="features-icon" width="75" height="72">
             <h3 class="features-list-title">Еда</h3>
-            <p class="features-text">Всегда заказывайте
-              топовый фирменный бургер, вы не разочаруетесь!</p>
+            <p class="features-text">Всегда заказывайте <br>
+              топовый фирменный бургер, <br> вы не разочаруетесь!</p>
           </li>
           <li class="features-item">
             <img src="img/index/icon-present.svg" alt="иконка сувениров" class="features-icon" width="75" height="72">
             <h3 class="features-list-title">Сувениры</h3>
-            <p class="features-text">Не только китайского,
-              но и настоящего местного производства!</p>
+            <p class="features-text">Не только китайского, <br>
+              но и настоящего местного <br> производства!</p>
           </li>
         </ul>
       </section>
@@ -138,7 +138,7 @@
       <section class="search-section">
         <div class="search-section-wrapper">
           <h2 class="search-title">Заинтересовались?</h2>
-          <p class="search-subtitle">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в
+          <p class="search-subtitle">Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в
             Седоне</p>
           <a class="search-link" href="catalog.html">ПОИСК ГОСТИНИЦЫ В седоне</a>
         </div>
@@ -238,7 +238,7 @@
     </footer>
 
 
-    <div class="modal-container">
+    <div class="modal-container modal-container-closed">
       <div class="modal">
         <button class="modal-close"></button>
         <h1 class="modal-title">Поиск гостиницы в седоне</h1>
@@ -246,32 +246,32 @@
 
           <fieldset class="modal-fieldset">
             <label class="date-to">
-              Дата Заезда:
-              <input type="date" class="date-to-input">
+              <span class="label-text-to">Дата Заезда:</span>
+              <input type="text" class="date-to-input" placeholder="27 апреля 2020">
             </label>
             <span class="date-to-text">Мы не можем отправить вас в прошлое.</span>
             <label class="date-from">
-              Дата выезда:
-              <input type="date" class="date-from-input">
+              <span class="label-text-from">Дата выезда:</span>
+              <input type="text" class="date-from-input" placeholder="1 сентября 2023">
             </label>
             <span class="date-from-text">На эти даты есть свободные номера. Пока есть.</span>
             <div class="person">
-              <label class="person-adult">
-                Взрослые:
-                <div class="modal-input-btn">
-                  <button class="btn-input btn-input-minus"></button>
-                  <input type="number" class="person-quantity">
-                  <button class="btn-input btn-input-plus"></button>
-                </div>
-              </label>
-              <label class="person-child">
-                Дети:
-                <div class="modal-input-btn">
-                  <button class="btn-input btn-input-minus"></button>
-                  <input type="number" class="person-quantity">
-                  <button class="btn-input btn-input-plus"></button>
-                </div>
-              </label>
+              <label for="adult-quantity" class="person-adult">Взрослые:</label>
+              <div class="modal-input-btn">
+                <button type="button" class="btn-input btn-input-minus"><span class="visually-hidden">Уменьшает число
+                    взрослых</span></button>
+                <input id="quantity-adult" type="number" class="person-quantity">
+                <button class="btn-input btn-input-plus"><span class="visually-hidden">Увеличивает число
+                  взрослых</span></button>
+              </div>
+              <label class="person-child" for="child-quantity">Дети:</label>
+              <div class="modal-input-btn">
+                <button class="btn-input btn-input-minus"><span class="visually-hidden">Уменьшает число
+                  детей</span></button>
+                <input type="number" class="person-quantity" id="child-quantity">
+                <button class="btn-input btn-input-plus"><span class="visually-hidden">Увеличивает число
+                  детей</span></button>
+              </div>
             </div>
 
             <button type="submit" class="modal-btn">Найти</button>
