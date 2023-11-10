@@ -1117,7 +1117,10 @@ body {
 .view-item {
   padding: 14px 12px;
   width: 44px;
-  height: 48px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .view-item:nth-child(2) {
