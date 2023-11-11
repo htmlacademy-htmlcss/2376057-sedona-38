@@ -138,7 +138,8 @@
       <section class="search-section">
         <div class="search-section-wrapper">
           <h2 class="search-title">Заинтересовались?</h2>
-          <p class="search-subtitle">Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в
+          <p class="search-subtitle">Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения
+            гостиниц в
             Седоне</p>
           <a class="search-link" href="catalog.html">ПОИСК ГОСТИНИЦЫ В седоне</a>
         </div>
@@ -247,30 +248,59 @@
           <fieldset class="modal-fieldset">
             <label class="date-to">
               <span class="label-text-to">Дата Заезда:</span>
-              <input type="text" class="date-to-input" placeholder="27 апреля 2020">
+              <input type="text" class="date-to-input modal-input" value="27 апреля 2020">
             </label>
             <span class="date-to-text">Мы не можем отправить вас в прошлое.</span>
             <label class="date-from">
               <span class="label-text-from">Дата выезда:</span>
-              <input type="text" class="date-from-input" placeholder="1 сентября 2023">
+              <input type="text" class="date-from-input modal-input" value="1 сентября 2023">
             </label>
             <span class="date-from-text">На эти даты есть свободные номера. Пока есть.</span>
             <div class="person">
               <label for="adult-quantity" class="person-adult">Взрослые:</label>
               <div class="modal-input-btn">
                 <button type="button" class="btn-input btn-input-minus"><span class="visually-hidden">Уменьшает число
-                    взрослых</span></button>
-                <input id="quantity-adult" type="number" class="person-quantity">
+                    взрослых</span>
+                  <svg class="btn-input-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 9V11H17V9H3Z" fill="#7561574D" />
+                  </svg>
+                </button>
+                <input id="quantity-adult" type="number" class="person-quantity" value="2">
                 <button class="btn-input btn-input-plus"><span class="visually-hidden">Увеличивает число
-                  взрослых</span></button>
+                    взрослых</span>
+                  <svg class="btn-input-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z" fill="#7561574D" />
+                  </svg>
+                </button>
               </div>
-              <label class="person-child" for="child-quantity">Дети:</label>
+              <span class="person-child">
+                <label class="person-child" for="child-quantity">Дети:</label>
+                <span class="tooltip">
+                  <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-date">
+                    <svg class="tooltip-icon" xmlns="http://www.w3.org/2000/svg" width="2" height="12"
+                      viewBox="0 0 2 12" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H2V2H0V0ZM2 12H0V3H2V12Z" fill="white" />
+                    </svg>
+                  </button>
+                  <span class="tooltip-text" role="tooltip" id="tooltip-label-date">Укажите количество детей, которые
+                    будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет
+                    размещаются бесплатно.</span>
+                </span>
+              </span>
               <div class="modal-input-btn">
                 <button class="btn-input btn-input-minus"><span class="visually-hidden">Уменьшает число
-                  детей</span></button>
-                <input type="number" class="person-quantity" id="child-quantity">
+                    детей</span>
+                  <svg class="btn-input-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 9V11H17V9H3Z" fill="#7561574D" />
+                  </svg>
+                </button>
+                <input type="number" class="person-quantity" id="child-quantity" value="2">
                 <button class="btn-input btn-input-plus"><span class="visually-hidden">Увеличивает число
-                  детей</span></button>
+                    детей</span>
+                  <svg class="btn-input-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z" fill="#7561574D" />
+                  </svg>
+                </button>
               </div>
             </div>
 

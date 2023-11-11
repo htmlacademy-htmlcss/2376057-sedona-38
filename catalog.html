@@ -19,7 +19,7 @@
           <ul class="nav-list">
             <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
             <li class="nav-item"><a href="#" class="nav-link">О Седоне</a></li>
-            <li class="nav-item"><a href="catalog.html" class="nav-link">Гостиницы</a></li>
+            <li class="nav-item"><a href="catalog.html" class="nav-link nav-link-catalog">Гостиницы</a></li>
           </ul>
           <ul class="nav-list nav-list-user">
             <li class="nav-item">
@@ -155,14 +155,14 @@
                 <div class="control-contain">
                   <div>
                     <label class="control">
-                      <span class="control-text control-text-from">От</span>
-                      <input class="control-input control-input-from" type="number" name="from" placeholder="0">
+                      <span class="control-text control-text-from">от</span>
+                      <input class="control-input control-input-from" type="number" name="from" value="0">
                     </label>
                   </div>
                   <div>
                     <label class="control">
-                      <span class="control-text control-text-to">До</span>
-                      <input class="control-input control-input-to" type="number" name="to" placeholder="9000">
+                      <span class="control-text control-text-to">до</span>
+                      <input class="control-input control-input-to" type="number" name="to" value="9000">
                     </label>
                   </div>
                 </div>
@@ -200,7 +200,6 @@
             <option value="expensive">Сначала дорогие</option>
             <option value="high-rating">Высокий рейтинг</option>
             <option value="low-rating">Низкий рейтинг</option>
-
           </select>
           <ul class="view-list">
             <li class="view-item view-item-current">
@@ -267,6 +266,7 @@
             </a>
             <span class="hotel-type">Гостиница</span>
             <span class="hotel-price">От 4000 ₽</span>
+
             <a href="#" class="btn-more">Подробнее</a>
             <a href="#" class="btn-favorite">В избранное</a>
             <p class="stars stars-4">
@@ -277,6 +277,7 @@
               <span class="star"></span>
             </p>
             <p class="raiting">РЕЙТИНГ: 8,5</p>
+
           </li>
 
           <li class="hotel hotel-2">
@@ -287,7 +288,7 @@
             <span class="hotel-type">Гостиница</span>
             <span class="hotel-price">От 5000 ₽</span>
             <a href="#" class="btn-more">Подробнее</a>
-            <a href="#" class="btn-favorite btn-favorite-current">В избранное</a>
+            <a href="#" class="btn-favorite btn-favorite-current">В избранном</a>
             <p class="stars stars-4">
               <span class="visually-hidden">4 звезды</span>
               <span class="star"></span>
@@ -343,12 +344,12 @@
       <section class="pagination">
         <div class="pagination-wrapper">
           <ul class="pagination-list">
-            <li class="pagination-item "><a href="#" class="pagination-link pagination-link-current">1</a>
+            <li class="pagination-item pagination-item-current"><a href="#" class="pagination-link pagination-link-current">1</a>
             </li>
             <li class="pagination-item"><a href="#" class="pagination-link">2</a></li>
             <li class="pagination-item"><a href="#" class="pagination-link">3</a></li>
             <li class="pagination-item"><a href="#" class="pagination-link">4</a></li>
-            <li class="pagination-item"><span class="dots">...</span></li>
+            <li class="pagination-item-dots"><span class="dots">...</span></li>
             <li class="pagination-item "><a href="#" class="pagination-link pagination-link-ten">10</a></li>
           </ul>
         </div>
