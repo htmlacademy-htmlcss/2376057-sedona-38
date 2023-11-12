@@ -1511,7 +1511,7 @@ body {
   border: none;
   right: 52px;
   top: 69px;
-  background-image: url("data:image/svg+xml,%3csvg width='21' height='21' viewbox='0 0 21 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='m17.4905 4.78288l16.1982 3.49057l10.4905 9.19826l4.78279 3.49057l3.49048 4.78288l9.19817 10.4906l3.49048 16.1983l4.78279 17.4906l10.4905 11.7829l16.1982 17.4906l17.4905 16.1983l11.7828 10.4906l17.4905 4.78288z' fill='black'/%3e%3c/svg%3e ");
+  background-image: url("data:image/svg+xml,%3Csvg width='21' height='21' viewBox='0 0 21 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.4907 4.78279L16.1984 3.49048L10.4907 9.19817L4.78303 3.49048L3.49072 4.78279L9.19842 10.4905L3.49072 16.1982L4.78303 17.4905L10.4907 11.7828L16.1984 17.4905L17.4907 16.1982L11.783 10.4905L17.4907 4.78279Z' fill='black'/%3E%3C/svg%3E%0A");
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
