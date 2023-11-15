@@ -438,6 +438,16 @@ body {
   width: 175px;
 }
 
+.advantages-title-white::after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  top: 85px;
+  left: 56px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 /*----------------------/advantages -------------------*/
 /*----------------------features-----------------------*/
 
